@@ -22,3 +22,10 @@ const num2 = parseFloat(prompt("Enter second number:"));
 const sum = addNumbers(num1, num2);
 
 console.log(sum);
+
+//q4//
+function calculator(num1, num2, operator) {
+  return eval(`${num1}${operator}${num2}`);
+}
+
+console.log(calculator(5, 3, '+'));

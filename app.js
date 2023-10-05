@@ -78,3 +78,12 @@ function isPalindrome(str) {
 }
 console.log(isPalindrome('racecar')); // true
 console.log(isPalindrome('hello')); // false
+
+//q11//
+function toTitleCase(str) {
+  return str.replace(/\b\w/g, function(txt) {
+    return txt.toUpperCase();
+  });
+}
+
+console.log(toTitleCase('the quick brown fox')); // Output: "The Quick Brown Fox"

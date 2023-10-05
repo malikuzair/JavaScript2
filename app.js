@@ -65,3 +65,9 @@ function calculateHypotenuse(base, perpendicular) {
 }
 console.log(calculateHypotenuse(3, 4)); // Output: 5
 console.log(calculateHypotenuse(5, 12)); // Output: 13
+
+//q9//
+function calculateRectangleArea(width, height) {
+  const area = width * height;
+  return area;
+}

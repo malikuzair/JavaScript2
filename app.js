@@ -71,3 +71,10 @@ function calculateRectangleArea(width, height) {
   const area = width * height;
   return area;
 }
+//q10//
+function isPalindrome(str) {
+  str = str.toLowerCase().replace(/[^a-z0-9]/g, '');
+  return str === str.split('').reverse().join('');
+}
+console.log(isPalindrome('racecar')); // true
+console.log(isPalindrome('hello')); // false

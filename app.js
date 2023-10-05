@@ -29,3 +29,11 @@ function calculator(num1, num2, operator) {
 }
 
 console.log(calculator(5, 3, '+'));
+//q5//
+function square(num) {
+  return num * num;
+}square(4); // returns 16
+square(9); // returns 81
+square(12); // returns 144
+
+//q6//

@@ -6,3 +6,8 @@ function displayDateTime() {
 }
 
 displayDateTime();
+//q2//
+function greetUser(firstName, lastName) {
+  const fullName = `${firstName} ${lastName}`;
+  return `Hello, ${fullName}!`;
+}

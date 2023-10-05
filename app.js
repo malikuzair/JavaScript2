@@ -47,3 +47,11 @@ function computeFactorial(num) {
 console.log(computeFactorial(0)); // Output: 1
 console.log(computeFactorial(5)); // Output: 120
 console.log(computeFactorial(10)); // Output: 3628800
+//q8//
+function calculateHypotenuse(base, perpendicular) {
+  function calculateSquare(x) { return x * x; }
+  const hypotenuseSquared = calculateSquare(base) + calculateSquare(perpendicular);
+  return Math.sqrt(hypotenuseSquared);
+}
+console.log(calculateHypotenuse(3, 4)); // Output: 5
+console.log(calculateHypotenuse(5, 12)); // Output: 13

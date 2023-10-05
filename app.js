@@ -103,7 +103,7 @@ function calcArea(radius) {
 }
 
 
-To use these functions, simply call them and pass in the radius as an argument:
+//To use these functions, simply call them and pass in the radius as an argument://
 
 
 calcCircumference(5); // Output: The circumference is 31.41592653589793

@@ -37,3 +37,13 @@ square(9); // returns 81
 square(12); // returns 144
 
 //q6//
+function computeFactorial(num) {
+  let result = 1;
+  for (let i = 1; i <= num; i++) {
+    result *= i;
+  }
+  return result;
+}
+console.log(computeFactorial(0)); // Output: 1
+console.log(computeFactorial(5)); // Output: 120
+console.log(computeFactorial(10)); // Output: 3628800

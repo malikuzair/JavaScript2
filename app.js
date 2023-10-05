@@ -87,3 +87,26 @@ function toTitleCase(str) {
 }
 
 console.log(toTitleCase('the quick brown fox')); // Output: "The Quick Brown Fox"
+
+//q14//
+
+// Function to calculate circumference of a circle
+function calcCircumference(radius) {
+  let circumference = 2 * Math.PI * radius;
+  console.log(`The circumference is ${circumference}`);
+}
+
+// Function to calculate area of a circle
+function calcArea(radius) {
+  let area = Math.PI * (radius ** 2);
+  console.log(`The area is ${area}`);
+}
+
+
+To use these functions, simply call them and pass in the radius as an argument:
+
+
+calcCircumference(5); // Output: The circumference is 31.41592653589793
+calcArea(5); // Output: The area is 78.53981633974483
+
+//You can replace `5` with any other value for the radius that you want to calculate.//
